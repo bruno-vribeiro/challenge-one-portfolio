@@ -41,8 +41,33 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sessão Menu*/
 
 section.menu{
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.menu header {
+    display: flex;
+    align-items: center;
+}
+
+.menu header img {
+    width: 16px;
+    height: 16px;
+}
+
+.menu__title {
+    margin-left: 5px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list__item {
+    margin-right: 34.5px;
+}
+
 
 /*Sessão Title*/
 
