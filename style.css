@@ -37,14 +37,19 @@ de usuário complexa, e permite a reutilização de código existente sem copiar
 
 Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
-
+body {
+    width: 82%;
+    margin: 0 auto;
+}
 /*Sessão Menu*/
 
 section.menu{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
+
+
 
 .menu header {
     display: flex;
@@ -73,6 +78,40 @@ section.menu{
 
 section.title{
 
+}
+
+.title__div {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+}
+
+.title__bio {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #464646;
+}
+
+.title__subsection {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+/* Preto/100% */
+
+color: #464646;
+}
+
+.title__network {
+    display: flex;
+    padding: 0;
+}
+
+.title__network__item {
+    margin-right: 5%;
 }
 
 /*Sessão About*/
