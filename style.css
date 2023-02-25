@@ -115,19 +115,70 @@ color: #464646;
 /*Sessão About*/
 
 section.about{
+    background: #EAF2FD;
 
 }
 
 .about__container {
-    background: #EAF2FD;
+    width: 55%;
+    margin-left: 100px;
     
+}
+
+/* Sessão de Skills*/
+
+.skills__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.skills__line {
+    display: flex;
+    justify-content: center;
+}
+
+.skills__box {
+    background-color: #FFF;
+    display: flex;
+    width: 176px;
+    align-items: end;
+    height: 174px;
+    margin-left: 16px;
+}
+
+.skills__box ul {
+    padding-left: 16px;
 }
 
 /*Sessão Hobbies*/
 
-section.hobbies{
-    
+.hobbies__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
 }
+
+.hobbies__line {
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies__box {
+    background-color: #FFF;
+    display: flex;
+    width: 176px;
+    align-items: end;
+    height: 174px;
+    margin-left: 16px;
+}
+
+.hobbies__box ul {
+    padding-left: 16px;
+}
+
 
 /* Experiência Acadêmica*/
 
