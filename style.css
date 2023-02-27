@@ -183,8 +183,41 @@ section.about{
 /* Experiência Acadêmica*/
 
 section.academic{
-
+    background: #EAF2FD;
 }
+
+.academic__title {
+    text-align: center;
+    padding-top: 82px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.academic__courses {
+    display: flex;
+    justify-content: center;
+}
+
+.academic__courses__item__img {
+    width: 368px;
+    height: 286px;
+
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.academic__courses__item__img img{
+    width: 192px;
+    height: 130px;
+}
+
+.academic__courses__item__title{
+    line-height: 26px;
+}
+
 
 /* experiência*/
 
