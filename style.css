@@ -222,7 +222,33 @@ section.academic{
 /* experiência*/
 
 section.experience{
+    display: flex;
+    flex-direction: column;
 
+}
+
+.experiencie__box--direcao {
+    flex-direction: row-reverse;
+}
+
+.experience__section__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.experiencie__box {
+    display: flex;
+    align-items: center;
+    margin-left: 82px;
+    margin-bottom: 53px;
+}
+
+.experiencie__box img {
+    
+    width: 752px;
+    height: 406px;
 }
 
 /*Contato*/
