@@ -122,6 +122,12 @@ color: #464646;
     margin-right: 5%;
 }
 
+.title__profile{
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+}
+
 /*Sessão About*/
 
 section.about{
@@ -161,6 +167,8 @@ section.about{
 .skills__box ul {
     padding-left: 16px;
 }
+
+
 
 /*Sessão Hobbies*/
 
@@ -331,7 +339,7 @@ section.formcontato{
 /*footeer*/
 
 section.footer{
-   
+   text-align: center;
 }
 
 /* Chegou a hora de se desafiar com a responsividade, 
